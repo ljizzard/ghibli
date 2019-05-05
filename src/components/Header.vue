@@ -1,4 +1,4 @@
-<template lang="html">
+<!-- <template lang="html">
   <div id="header-container">
     <h1>Studio Ghibli</h1>
   </div>
@@ -16,4 +16,4 @@ export default {
   display: flex;
   justify-content: center;
 }
-</style>
+</style> -->

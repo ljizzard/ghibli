@@ -8,13 +8,16 @@
 <script>
 import FilmList from '@/components/FilmList';
 import FilmInfo from '@/components/FilmInfo';
+import FilmImage from '@/components/FilmImage';
 import {eventBus} from '@/main.js';
+
 
 export default {
   name: 'main-view',
   components: {
     FilmList,
-    FilmInfo
+    FilmInfo,
+    FilmImage
   },
   data(){
     return {
@@ -38,4 +41,6 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+
 </style>

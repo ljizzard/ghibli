@@ -3,11 +3,15 @@
 </template>
 
 <script>
+import FilmImage from'@/components/FilmImage';
 import {eventBus} from '@/main.js';
 
 export default {
   name: 'list-item',
   props: ['film'],
+  components:{
+    FilmImage
+  },
   methods:{
     handleClick(){
       eventBus.$emit('film-selected', this.film)
